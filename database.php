@@ -8,7 +8,7 @@
   try {
     $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
   }
-  // Catch for failled connection to the database
+  // Catch for failed connection to the database
   catch(mysqli_sql_exception) {
     echo "<h1 class='text-danger'>Could Not Connect!</h1>";
   }
